@@ -541,6 +541,9 @@ users:
   enable_user_directory:
     client: true
     default: true
+  user_directory_additional_attributes:
+    type: list
+    default: ""
   allow_anonymous_posting:
     default: false
     client: true

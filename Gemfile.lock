@@ -212,7 +212,7 @@ GEM
     mocha (1.12.0)
     mock_redis (0.27.3)
       ruby2_keywords
-    msgpack (1.4.1)
+    msgpack (1.4.2)
     multi_json (1.15.0)
     multi_xml (0.6.0)
     multipart-post (2.1.1)
@@ -325,7 +325,7 @@ GEM
       optimist (>= 3.0.0)
     rchardet (1.8.0)
     redis (4.2.5)
-    redis-namespace (1.8.0)
+    redis-namespace (1.8.1)
       redis (>= 3.0.4)
     regexp_parser (2.0.3)
     request_store (1.5.0)

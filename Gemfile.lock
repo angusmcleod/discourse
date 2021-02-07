@@ -106,7 +106,7 @@ GEM
       jquery-rails (>= 1.0.17)
       railties (>= 3.1)
     discourse-ember-source (3.12.2.2)
-    discourse-fonts (0.0.5)
+    discourse-fonts (0.0.6)
     discourse_image_optim (0.26.2)
       exifr (~> 1.2, >= 1.2.2)
       fspath (~> 3.0)
@@ -212,7 +212,7 @@ GEM
     mocha (1.12.0)
     mock_redis (0.27.3)
       ruby2_keywords
-    msgpack (1.4.1)
+    msgpack (1.4.2)
     multi_json (1.15.0)
     multi_xml (0.6.0)
     multipart-post (2.1.1)

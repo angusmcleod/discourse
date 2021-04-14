@@ -92,7 +92,7 @@ GEM
     coderay (1.1.3)
     colored2 (3.1.2)
     concurrent-ruby (1.1.8)
-    connection_pool (2.2.3)
+    connection_pool (2.2.4)
     cose (1.2.0)
       cbor (~> 0.5.9)
       openssl-signature_algorithm (~> 1.0)
@@ -114,7 +114,7 @@ GEM
       railties (>= 3.1)
     discourse-ember-source (3.12.2.3)
     discourse-fonts (0.0.8)
-    discourse_dev (0.0.5)
+    discourse_dev (0.0.8)
       faker (~> 2.16)
     discourse_image_optim (0.26.2)
       exifr (~> 1.2, >= 1.2.2)
@@ -198,7 +198,7 @@ GEM
     logstash-logger (0.26.1)
       logstash-event (~> 1.2)
     logster (2.9.6)
-    loofah (2.9.0)
+    loofah (2.9.1)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
     lru_redux (1.1.0)
@@ -208,7 +208,7 @@ GEM
     message_bus (3.3.4)
       rack (>= 1.1.3)
     method_source (1.0.0)
-    mini_mime (1.0.3)
+    mini_mime (1.1.0)
     mini_portile2 (2.5.0)
     mini_racer (0.3.1)
       libv8 (~> 8.4.255)
@@ -227,14 +227,14 @@ GEM
     multipart-post (2.1.1)
     mustache (1.1.1)
     nio4r (2.5.7)
-    nokogiri (1.11.2)
+    nokogiri (1.11.3)
       mini_portile2 (~> 2.5.0)
       racc (~> 1.4)
-    nokogiri (1.11.2-arm64-darwin)
+    nokogiri (1.11.3-arm64-darwin)
       racc (~> 1.4)
-    nokogiri (1.11.2-x86_64-darwin)
+    nokogiri (1.11.3-x86_64-darwin)
       racc (~> 1.4)
-    nokogiri (1.11.2-x86_64-linux)
+    nokogiri (1.11.3-x86_64-linux)
       racc (~> 1.4)
     nokogumbo (2.0.5)
       nokogiri (~> 1.8, >= 1.8.4)
@@ -268,7 +268,7 @@ GEM
     omniauth-twitter (1.4.0)
       omniauth-oauth (~> 1.1)
       rack
-    onebox (2.2.10)
+    onebox (2.2.11)
       addressable (~> 2.7.0)
       htmlentities (~> 4.3)
       multi_json (~> 1.11)
@@ -282,7 +282,7 @@ GEM
     parallel (1.20.1)
     parallel_tests (3.6.0)
       parallel
-    parser (3.0.0.0)
+    parser (3.0.1.0)
       ast (~> 2.4.1)
     pg (1.2.3)
     progress (3.6.0)
@@ -341,7 +341,7 @@ GEM
     regexp_parser (2.1.1)
     request_store (1.5.0)
       rack (>= 1.4)
-    rexml (3.2.4)
+    rexml (3.2.5)
     rinku (2.0.6)
     rotp (6.2.0)
     rqrcode (1.2.0)
@@ -419,7 +419,7 @@ GEM
       activesupport (>= 3.1)
     shoulda-matchers (4.5.1)
       activesupport (>= 4.2.0)
-    sidekiq (6.2.0)
+    sidekiq (6.2.1)
       connection_pool (>= 2.2.2)
       rack (~> 2.0)
       redis (>= 4.2.0)
@@ -525,6 +525,7 @@ DEPENDENCIES
   logstash-event
   logstash-logger
   logster
+  loofah
   lru_redux
   lz4-ruby
   mail!

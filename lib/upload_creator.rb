@@ -231,6 +231,8 @@ class UploadCreator
         UserUpload.find_or_create_by!(user_id: user_id, upload_id: @upload.id) if user_id
       end
 
+      DiscourseEvent.trigger(:after_upload_creation, @upload, @opts)
+
       @upload
     end
   ensure

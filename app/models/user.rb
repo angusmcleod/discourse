@@ -1301,6 +1301,7 @@ class User < ActiveRecord::Base
     Reviewable.where(created_by_id: id).delete_all
 
     posts
+      .where.not(topic_id: Category.where("topic_id IS NOT NULL").pluck(:topic_id))
       .order("post_number desc")
       .limit(batch_size)
       .each { |p| PostDestroyer.new(guardian.user, p).destroy }

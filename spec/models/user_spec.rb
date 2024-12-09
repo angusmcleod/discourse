@@ -617,6 +617,12 @@ RSpec.describe User do
         expect(p.topic).to be_present
       end
     end
+
+    it "does not delete category topic posts" do
+      Fabricate(:category, topic: post1.topic)
+      user.delete_posts_in_batches(guardian)
+      expect(Post.exists?(post1.id)).to eq(true)
+    end
   end
 
   describe "new" do
